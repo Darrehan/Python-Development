@@ -20,6 +20,7 @@ nr_numbers = int(input("How many numbers would you like?\n"))
 # print(password)
 #Hard Level
 # here we are using random.shuffle() function to shuffle the letters in the list
+
 password_list = []
 for char in range(1, nr_letters + 1):
   password_list.append(random.choice(letters))
